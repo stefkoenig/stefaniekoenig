@@ -5,10 +5,26 @@
  *
  * Made By MaterializeCSS.com
  */
-
+body{
+  font-family: 'Nixie One', cursive;
+}
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+/* navbar */
+.light-blue.lighten-1{
+  background-color: #29B6B9 !important;
+}
+/* jumbotron */
+.section.no-pad-bot{
+  background-image: url('../images/beach.jpg');
+  background-size: cover;
+
+}
+
+.orange-text{
+color: #FF968B !important;
 }
