@@ -5,7 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
-body{
+body {
   font-family: 'Nixie One', cursive;
 }
 .icon-block {
@@ -15,19 +15,22 @@ body{
 	font-size: inherit;
 }
 /* navbar */
-.light-blue.lighten-1{
+.light-blue.lighten-1 {
   background-color: #29B6B9 !important;
 }
-/* jumbotron */
+
 .section{
   height: 100vh;
 }
-.section.no-pad-bot{
+#index-banner {
   background-image: url('../images/beach.jpg');
   background-size: cover;
 
 }
-
-.orange-text{
+.orange-text {
 color: #FF968B !important;
+}
+
+img {
+  max-width: 100%;
 }
