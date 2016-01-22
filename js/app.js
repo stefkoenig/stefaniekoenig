@@ -1,3 +1,4 @@
+//Facebook
 window.fbAsyncInit = function() {
   FB.init({
     appId      : '524419141060049',
@@ -14,3 +15,9 @@ window.fbAsyncInit = function() {
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=524419141060049";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+//Google+
+window.___gcfg = {
+      lang: 'en-US',
+      parsetags: 'onload'
+};
