@@ -49,7 +49,7 @@ footer.page-footer{
   border: 1px solid #29B6B9;
 }
 
-.fb-share.fb_iframe_widget span{
+.fb-share-button .fb_iframe_widget span{
   vertical-align: top !important;
 }
 
