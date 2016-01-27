@@ -54,8 +54,8 @@ footer.page-footer{
   padding: 3px;
 }
 
-.fb-share-button{
-  padding-bottom: 10px;
+.fb-share{
+  padding-bottom:10px;
 }
 
 @media only screen and (max-width:768px){
