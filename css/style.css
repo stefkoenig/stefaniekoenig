@@ -8,6 +8,7 @@
 body {
   font-family: 'Nixie One', cursive;
 }
+
 .icon-block {
   padding: 0 15px;
 }
@@ -16,24 +17,26 @@ body {
 }
 /* navbar */
 .light-blue.lighten-1 {
-  background-color: #29B6B9 !important;
+  background-color: #525e70 !important;
 }
 
-.section {
+.full-screen-container {
   height: 100vh;
 }
 
 #index-banner {
   background-image: url('../images/beach.jpg');
   background-size: cover;
-
+  /*border-bottom: 32px solid #525e70;*/
 }
+
 .orange-text {
 color: #FF968B !important;
 }
 
+
 img {
-  max-width: 100%;
+  max-height: 325px;
 }
 
 .mug {
@@ -42,15 +45,36 @@ img {
 }
 
 footer.page-footer{
-  background-color: #29B6B9 !important;
+  background-color: #525e70 !important;
 }
 
-.project-border{
-  border: 1px solid #29B6B9;
+.footer-copyright{
+  background-color: #495465 !important;
 }
 
 .fb-share-button .fb_iframe_widget span{
   vertical-align: top !important;
+}
+
+.btn-floating {
+  display: inline-block;
+  color: #FEE3AC;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  padding: 0;
+  background-color: #333143;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.btn-floating:hover {
+  background-color: #525e70;
 }
 
 .social-share {
@@ -58,12 +82,28 @@ footer.page-footer{
   padding: 3px;
 }
 
+.dark-text{
+  color: #333143;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #FF968B;
+}
+
+.slider-container{
+  margin: 40px 64px;
+}
+
+.slider{
+  padding: 32px 0px;
+}
+
 @media only screen and (max-width:768px){
   /* for mobile */
   .col {
     width: 100%;
   }
-  .section {
+  .container, .container-fluid {
     height: auto;
   }
   .contact-buttons {
